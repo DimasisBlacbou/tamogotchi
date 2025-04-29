@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+* {
+  box-sizing: border-box;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.not-active {
+  opacity: 0.3333;
+  pointer-events: none;
+}
+
+progress {
+  transition: accent-color 2s linear;
+}
+.imgTamagochi {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.obolochka {
+  background-color: green;
+  border-radius: 20px;
+  padding: 8px;
+  font-family: "Pixelify Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width: 450px;
+  height: 650px;
+}
+.screen {
+  background-color: darkgreen;
+  border-radius: 20px;
+  position: relative;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.button {
+  margin-top: 25px;
+}
+.movement {
+  position: relative;
+}
+.movementButtonUp {
+  position: absolute;
+  left: 121px;
+  top: 60px;
+}
+.movementButtonDown {
+  position: absolute;
+  left: 121px;
+  top: 181px;
+}
+.movementButtonLeft {
+  position: absolute;
+  left: 21px;
+  top: 121px;
+}
+.movementButtonRight {
+  position: absolute;
+  left: 221px;
+  top: 121px;
+}
+.movementButtonJump {
+  position: absolute;
+  left: 121px;
+  top: 121px;
+}
+.movementButtonBack {
+  position: absolute;
+  left: 331px;
+  top: 181px;
+}
+.movement button {
+  width: 80px;
+}
+.menu {
+  display: flex;
+
+  flex-direction: column;
+  gap: 5px;
+}
+.menu button {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  background-color: rgb(0, 64, 0);
+}
+.podsvetka {
+  border-color: aliceblue;
+  border-width: 2px;
+}
+.play {
+  position: relative;
+  width: 434px;
+  height: 320px;
+}
+.rat {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+.ratSS {
+  transform: scaleX(-1);
+}
+.nameSl {
+  position: absolute;
+  top: 10px;
+}
+.sleepMause {
+  position: absolute;
+  top: 209px;
+  width: 130px;
+  height: 130px;
+}
+.red {
+  accent-color: red;
+  position: absolute;
+  top: 130px;
+}
+.yellow {
+  accent-color: rgb(242, 255, 0);
+  position: absolute;
+  top: 130px;
+}
+.progress {
+  accent-color: rgb(0, 255, 30);
+}
+.progressSleep {
+  accent-color: rgb(0, 255, 30);
+  position: absolute;
+  top: 130px;
+}
+.energySleep {
+  position: absolute;
+  top: 98px;
+  left: 10px;
+}
+.feedMause {
+  position: absolute;
+  top: 248px;
+  width: 210px;
+  height: 90px;
+}
+.buttofood {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  display: block;
+}
+.marketButton {
+  margin-right: 10px;
+  display: inline-block;
+}
+.container {
+  padding: 10px;
+  max-height: 300px;
+  max-width: 400px;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.coins {
+  width: 75px;
+  height: 75px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+.coinPlay {
+  padding: auto;
+  margin: auto;
+}
